@@ -2,7 +2,7 @@
 <html>
 
   <head>
-    <title>Gain - Intro</title>
+    <title>Gain - Alert</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
 
@@ -14,11 +14,13 @@
 
 	<!-- Google jQeury CDN -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
     <script>
     </script>
     <style>
+	
+	.wishlist { text-align:"center"; border:1px  }
   
-		.welcome p { text-align:center; }
     </style>
   </head>
 
@@ -43,28 +45,27 @@
 		</div>
 	</nav>
 	
-	<section class="welcome">
+	<section class="wishlist">
+		<!-- 가능하다면 여기부분은 해당 회원이 이용할 수 있는 개인 페이지로서 만약 몇몇의 게임페이지에서 wish list에 추가하거나 alert라는 것을 눌렀을 때 DB에 저장해두고 여기에 javascript로 뿌리기  -->
+		<!-- 또한 할인을 하기 시작한 것이 있을 때는 해당 사용자의 로그인한 이메일을 통해서 내용을 보내주기. -->
+		<h3> Wish-list </h3><br>
+		<p> It's quiet in here</p>
+		<p> You don't have any games in wishlist</p>
+		<script>
+		function mvdeals(){
+				location.href = "deals.html";
+		}
+		</script>
+		<button type="button" onclick="mvdeals();">Search Game</button>
+	</section>
 	
-		<!-- 대충 이런 인사말정도로 여기에는 그냥 nav 태그나 검색바같은 건 빼도 괜찮을 듯. -->
-		<p> Welcome to visiting Gain </p>
-		<p> This service for Game Discount Information from public-shop</p>
-		<p> I strongly recommend that you use Chrome browser.</p>
-		<p> Because of including recent grammer like HTML5,CSS3, etc..</p>
-	<section>
-
-  </body>
-  
-  <footer class="addr">
+	<footer class="addr">
         <address>
           Mail Addr : <a href="mailto:m1r1st4r@naver.com">help@m1r1st4r.com</a>
         </address>
         <small> <a href="https://github.com/m1r1st4r"target="_blank">Github</a><a href="https://www.instagram.com/m1r1ron/"target="_blank"> Instagram</a><a href="https://meanits.tistory.com/"target="_blank">Tistory</a></small><br>
       </footer>
 	
-  
+
+  </body>
 </html>
-
-
-
-
-

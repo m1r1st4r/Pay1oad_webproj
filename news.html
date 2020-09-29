@@ -2,7 +2,7 @@
 <html>
 
   <head>
-    <title>Gain - Intro</title>
+    <title>Gain - news</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
 
@@ -12,13 +12,11 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-	<!-- Google jQeury CDN -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
     </script>
     <style>
   
-		.welcome p { text-align:center; }
+	.news {border: 3px solid #FFFFFF ; margin-top: 20px;}
     </style>
   </head>
 
@@ -43,28 +41,27 @@
 		</div>
 	</nav>
 	
-	<section class="welcome">
-	
-		<!-- 대충 이런 인사말정도로 여기에는 그냥 nav 태그나 검색바같은 건 빼도 괜찮을 듯. -->
-		<p> Welcome to visiting Gain </p>
-		<p> This service for Game Discount Information from public-shop</p>
-		<p> I strongly recommend that you use Chrome browser.</p>
-		<p> Because of including recent grammer like HTML5,CSS3, etc..</p>
 	<section>
-
-  </body>
-  
-  <footer class="addr">
+	<!-- STeam web api가 있던데 그걸로 뉴스를 불러올 수 있다면 해보고 아니면 국내 게임뉴스 사이트를 파이썬을 통해 크롤링해서 정보를 넣는 방법이 있을듯.  -->
+	<!-- 이 페이지에서는 반드시 내가 html을 작성하는 것이 아니라 javascript와 jquery를 이용해서 html을 그려내는 방향으로 가자. -->
+		<div class="news">
+			<p>Steam Game news</p>
+			<p>Local Game news</p>
+		</div>
+	
+	</section>
+	
+	
+	
+	<footer class="addr">
         <address>
           Mail Addr : <a href="mailto:m1r1st4r@naver.com">help@m1r1st4r.com</a>
         </address>
         <small> <a href="https://github.com/m1r1st4r"target="_blank">Github</a><a href="https://www.instagram.com/m1r1ron/"target="_blank"> Instagram</a><a href="https://meanits.tistory.com/"target="_blank">Tistory</a></small><br>
       </footer>
 	
-  
+
+
+  </body>
 </html>
-
-
-
-
 
